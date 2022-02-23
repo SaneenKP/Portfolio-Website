@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 :root{
-    --background: rgba(85 , 214 , 170 , .85);
+    --navBarBackground: black;
+    --textColor: rgb(5, 19, 103);
 }
 
 *, *::before , *::after{
@@ -9,7 +10,7 @@
 
 body{
     margin: 0;
-    background: #222;
+    background: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -25,13 +26,15 @@ body{
 
 /*navigation styles*/
 
+
 header{
-    background: var(--background);
-    text-align: center;
+    background: var(--navBarBackground);
     position: fixed;
+    text-align: center;
     z-index: 999;
     width: 100%;
 }
+
 
 .nav-toggle{
     display: none;
@@ -59,20 +62,20 @@ header{
 .nav-toggle-label span::before,
 .nav-toggle-label span::after{
     content: '';
-    position: absolute;
+    position: relative;
 }
 
 .nav-toggle-label span::before{
-    bottom: 5px ;
+    bottom: 12px ;
 }
 
 .nav-toggle-label span::after{
-    top: 5px;
+    top: 10px;
 }
 nav{
     position: absolute;
     text-align: left;
-    top:100%;
+    top:120%;
     left: 0;
     background: var(--background);
     width:100%;
@@ -93,7 +96,7 @@ nav li{
 }
 
 nav a{
-    color: white;
+    color: var(--textColor);
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -115,7 +118,7 @@ nav a:hover{
     transition: opacity 250ms ease-in-out;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
 
     .nav-toggle-label{
         display: none;
@@ -127,7 +130,7 @@ nav a:hover{
     }
 
     .logo{
-        grid-column: 2 / span 1 ;
+        grid-column: 1 / span 1 ;
     }
 
     nav {
