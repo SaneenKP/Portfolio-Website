@@ -1,0 +1,25 @@
+section{
+    border: solid blue 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.profile-image{
+
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.profile-image img{
+    width: 50%;
+    border-radius: 50%;
+}
+.sub-heading{
+    text-align: center;
+}
+.home-text{
+    text-align: center;
+    text-decoration: none;
+}
