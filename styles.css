@@ -2,6 +2,7 @@
 :root{
     --navBarBackground: black;
     --textColor: rgb(5, 19, 103);
+    ---heading-font-size: 2rem;
 }
 
 *, *::before , *::after{

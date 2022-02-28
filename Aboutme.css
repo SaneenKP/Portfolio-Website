@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,800;1,300&family=Roboto+Condensed:wght@300&family=Share+Tech+Mono&display=swap');
+.aboutme{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutme-content{
+
+font-family: 'Share Tech Mono', monospace;
+font-weight: 100;
+
+}
+
+.aboutme-content h1{
+
+    font-style: bold;
+    font-weight: 1000;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 2%;
+    padding: 2%;
+    font-size: 2erm;
+
+}
+
+.aboutme-content p{
+    font-size: 1.25rem;
+}

@@ -1,5 +1,11 @@
-section{
+section {
+
     border: solid blue 5px;
+}
+
+/*Hero Section */
+
+.Home{
     display: flex;
     align-items: center;
     justify-content: center;
