@@ -1,0 +1,18 @@
+.projects{
+    border: solid 5px blue;
+}
+
+.projects-wrapper{
+
+    border: solid 5px red;
+}
+
+.project{
+    border: solid 5px green;
+    width: fit-content;
+}
+
+.project img{
+    height: 20vh;
+    width: 30vw;
+}
