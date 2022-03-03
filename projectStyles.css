@@ -12,17 +12,32 @@
 .projects-wrapper{
 
     border: solid 5px red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project{
-    border: solid 5px green;
     width: fit-content;
-    display: grid;
-    height: 500px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 7%;
 }
 
 .project img{
     height: 20vh;
     width: 30vw;
+    margin-bottom: 5%;
+}
+
+.project-content h2{
+    margin: 5%;
+}
+
+.project-content p{
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
