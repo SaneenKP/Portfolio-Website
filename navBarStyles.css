@@ -4,6 +4,7 @@
     --textColor: rgb(5, 19, 103);
     ---heading-font-size: 2rem;
     --content-font-size: 1.25rem;
+    --heading-font-family: "Share Tech Mono', monospace";   
 }
 
 *, *::before , *::after{
