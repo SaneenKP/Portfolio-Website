@@ -52,12 +52,18 @@
     flex-direction: row;
 }
 
-.project-links svg{
+svg{
     width: 7vw;
     height: 5vh;
 }
 
-.tech-stack-heading{
+.project-tech-stack{
     width: 100%;
-    text-align: start;
 }
+.project-tech-stack h3{
+    margin: 5px;
+}
+.project-tech-stack svg{
+    margin: 10px;
+}
+
