@@ -31,6 +31,15 @@ body{
 
 /*navigation styles*/
 
+.titles{
+    font-style: bold;
+    font-weight: 1000;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 2%;
+    padding: 2%;
+    font-size: var(---heading-font-size);
+    text-align: center;
+}
 
 header{
     background: var(--navBarBackground);

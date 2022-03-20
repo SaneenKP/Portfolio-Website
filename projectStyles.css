@@ -1,14 +1,6 @@
 .projects{
     border: solid 5px blue;
 }
-
-.projects h1{
-    text-align: center;
-    font-family: var(--heading-font-family);
-    font-size: var(---heading-font-size);
-    padding: 5%;
-}
-
 .projects-wrapper{
 
     display: flex;
