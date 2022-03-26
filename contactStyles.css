@@ -21,3 +21,13 @@
     margin-bottom: 3%;
     margin-top: 3%;
 }
+
+.contact-wrapper button{
+    margin-top: 10%;
+    height: fit-content;
+    font-size: 1rem;
+    padding: 3%;
+    border: black;
+    background-color: greenyellow;
+
+}
