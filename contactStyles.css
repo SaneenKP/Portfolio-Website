@@ -11,6 +11,11 @@
     padding: 3%;
     font-size: 1rem;
 }
+.contact-wrapper textarea{
+    margin-bottom: 5%;
+    padding: 3%;
+    font-size: 1rem;
+}
 
 .contact-wrapper label{
     margin-bottom: 3%;
