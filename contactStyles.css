@@ -36,4 +36,14 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
+}
+
+.connection-links-wrapper > :first-child{
+    margin-bottom: 5%;
+}
+
+.connection-links-wrapper > :nth-child(2){
+    margin-bottom: 7%;
+    font-size: 1.5rem;
 }
