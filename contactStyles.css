@@ -31,3 +31,9 @@
     background-color: greenyellow;
 
 }
+.connection-links-wrapper{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
